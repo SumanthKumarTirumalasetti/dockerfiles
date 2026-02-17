@@ -1,4 +1,4 @@
 from almalinux:9
-env course="DevOps with AWS' \
+env course="DevOps with AWS" \
     trainer="Sivakumar reddy" \
     duration="120hrs"
