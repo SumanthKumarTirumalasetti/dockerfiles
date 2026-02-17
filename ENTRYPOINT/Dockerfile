@@ -1,3 +1,3 @@
 from almalinux:9
-cmd ["google.com" , "faceboo.com"]
+cmd ["google.com"]
 entrypoint ["ping"]
