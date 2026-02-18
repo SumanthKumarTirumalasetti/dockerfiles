@@ -2,5 +2,6 @@ from almalinux:9
 env course="DevOps with AWS" \
     trainer="Sivakumar reddy" \
     duration="120hrs"
-run echo "Hello ${trainer}" > /tmp/DevOps.txt
+arg username=SumanthKumarTirumalasetti
+run echo "Hello ${username}"
 cmd ["sleep" , "2000"]
