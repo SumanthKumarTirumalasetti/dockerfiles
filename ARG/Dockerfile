@@ -1,4 +1,5 @@
-from almalinux:9
+arg version=almalinux:9
+from ${version}
 env course="DevOps with AWS" \
     trainer="Sivakumar reddy" \
     duration="120hrs"
